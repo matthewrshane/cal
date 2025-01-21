@@ -3,77 +3,57 @@ VERSION:2.0
 PRODID:-//University of Massachusetts//Student Schedule//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Matthew - 2024 Fall UMDAR Classes (as of 09-03-24)
+X-WR-CALNAME:Matthew - 2025 Sprng UMDAR Classes (as of 01-21-25)
 X-WR-TIMEZONE:America/New_York
 X-WR-CALDESC:
 BEGIN:VEVENT
-DTSTART:20240905T123000
+DTSTART:20250121T123000
 DURATION:PT1H15M
-RRULE:FREQ=WEEKLY;BYDAY=TU,TH;UNTIL=20241210
-LOCATION:Liberal Arts 210              
+RRULE:FREQ=WEEKLY;BYDAY=TU,TH;UNTIL=20250430
+LOCATION:Library Lecture Hall 206      
 STATUS:CONFIRMED
-SUMMARY:MTH 331-01 Lecture (#10721)     
-DESCRIPTION:Class Title: Probability\n                                          
- Instructor: Zheng Chen                                                                   
+SUMMARY:CIS 361-01 Lecture (#11739)     
+DESCRIPTION:Class Title: Models of Computation\n                                
+ Instructor: Razieh Fathi                                                                 
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20240905T093000
+DTSTART:20250122T130000
+DURATION:PT0H50M
+RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR;UNTIL=20250430
+LOCATION:Library Lecture Hall 206      
+STATUS:CONFIRMED
+SUMMARY:CIS 362-01 Lecture (#11740)     
+DESCRIPTION:Class Title: Empirical Meth Comp Sci\n                              
+ Instructor: Joshua Robert Carberry                                                       
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250121T093000
 DURATION:PT1H15M
-RRULE:FREQ=WEEKLY;BYDAY=TU,TH;UNTIL=20241210
+RRULE:FREQ=WEEKLY;BYDAY=TU,TH;UNTIL=20250430
+LOCATION:Library Lecture Hall 206      
+STATUS:CONFIRMED
+SUMMARY:CIS 481-01 Lecture (#11746)     
+DESCRIPTION:Class Title: Paral&Distr Sftware Syst\n                             
+ Instructor: Haiping Xu                                                                   
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250124T150000
+DURATION:PT2H30M
+RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20250430
 LOCATION:Liberal Arts 218              
 STATUS:CONFIRMED
-SUMMARY:MTH 361-01 Lecture (#10722)     
-DESCRIPTION:Class Title: Numerical Analysis I\n                                 
- Instructor: Sigal Gottlieb                                                               
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20240905T153000
-DURATION:PT2H30M
-RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20241210
-LOCATION:CCB-247                       
-STATUS:CONFIRMED
-SUMMARY:MTH 420-01 Lecture (#10723)     
-DESCRIPTION:Class Title: High Perform Scientific Comput\n                       
+SUMMARY:MTH 440-01 Lecture (#13758)     
+DESCRIPTION:Class Title: Math & Comp Consulting\n                               
  Instructor: Alfa R.H Heryudono                                                           
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20240905T140000
+DTSTART:20250121T080000
 DURATION:PT1H15M
-RRULE:FREQ=WEEKLY;BYDAY=TU,TH;UNTIL=20241210
+RRULE:FREQ=WEEKLY;BYDAY=TU,TH;UNTIL=20250430
 LOCATION:Liberal Arts 218              
 STATUS:CONFIRMED
-SUMMARY:MTH 473-01 Lecture (#10725)     
-DESCRIPTION:Class Title: Numerical Linear Algebra\n                             
- Instructor: Bo Dong                                                                      
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20240904T130000
-DURATION:PT0H50M
-RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR;UNTIL=20241210
-LOCATION:Dion 115                      
-STATUS:CONFIRMED
-SUMMARY:CIS 360-01 Lecture (#11462)     
-DESCRIPTION:Class Title: Algorithms & Data Struct\n                             
- Instructor: Long Jiao                                                                    
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20240909T110000
-DURATION:PT1H50M
-RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20241210
-LOCATION:Dion 305                      
-STATUS:CONFIRMED
-SUMMARY:CIS 360-01L1 Laboratory (#11463)
-DESCRIPTION:Class Title: Algorithms & Data Struct\n                             
- Instructor: Long Jiao                                                                    
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20240904T140000
-DURATION:PT0H50M
-RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR;UNTIL=20241210
-LOCATION:CCB-149                       
-STATUS:CONFIRMED
-SUMMARY:CIS 381-02H Lecture (#11629)    
-DESCRIPTION:Class Title: Social&Ethcl Aspect Comp\n                             
- Instructor: Firas Denis Khatib                                                           
+SUMMARY:MTH 475-01 Lecture (#14100)     
+DESCRIPTION:Class Title: Adv Numerical Mthds for PDEs\n                         
+ Instructor: Sigal Gottlieb                                                               
 END:VEVENT
 END:VCALENDAR
