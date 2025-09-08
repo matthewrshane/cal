@@ -3,57 +3,77 @@ VERSION:2.0
 PRODID:-//University of Massachusetts//Student Schedule//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Matthew - 2025 Sprng UMDAR Classes (as of 01-21-25)
+X-WR-CALNAME:Matthew - 2025 Fall UMDAR Classes (as of 09-07-25)
 X-WR-TIMEZONE:America/New_York
 X-WR-CALDESC:
 BEGIN:VEVENT
-DTSTART:20250121T123000
+DTSTART:20250904T080000
 DURATION:PT1H15M
-RRULE:FREQ=WEEKLY;BYDAY=TU,TH;UNTIL=20250430
-LOCATION:Library Lecture Hall 206      
+RRULE:FREQ=WEEKLY;BYDAY=TU,TH;UNTIL=20251209
+LOCATION:TEX-001                       
 STATUS:CONFIRMED
-SUMMARY:CIS 361-01 Lecture (#11739)     
-DESCRIPTION:Class Title: Models of Computation\n                                
- Instructor: Razieh Fathi                                                                 
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20250122T130000
-DURATION:PT0H50M
-RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR;UNTIL=20250430
-LOCATION:Library Lecture Hall 206      
-STATUS:CONFIRMED
-SUMMARY:CIS 362-01 Lecture (#11740)     
-DESCRIPTION:Class Title: Empirical Meth Comp Sci\n                              
- Instructor: Joshua Robert Carberry                                                       
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20250121T093000
-DURATION:PT1H15M
-RRULE:FREQ=WEEKLY;BYDAY=TU,TH;UNTIL=20250430
-LOCATION:Library Lecture Hall 206      
-STATUS:CONFIRMED
-SUMMARY:CIS 481-01 Lecture (#11746)     
-DESCRIPTION:Class Title: Paral&Distr Sftware Syst\n                             
- Instructor: Haiping Xu                                                                   
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20250124T150000
-DURATION:PT2H30M
-RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20250430
-LOCATION:Liberal Arts 218              
-STATUS:CONFIRMED
-SUMMARY:MTH 440-01 Lecture (#13758)     
-DESCRIPTION:Class Title: Math & Comp Consulting\n                               
- Instructor: Alfa R.H Heryudono                                                           
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20250121T080000
-DURATION:PT1H15M
-RRULE:FREQ=WEEKLY;BYDAY=TU,TH;UNTIL=20250430
-LOCATION:Liberal Arts 218              
-STATUS:CONFIRMED
-SUMMARY:MTH 475-01 Lecture (#14100)     
-DESCRIPTION:Class Title: Adv Numerical Mthds for PDEs\n                         
+SUMMARY:MTH 472-01 Lecture (#5245)      
+DESCRIPTION:Class Title: Num Meth Part Differ  Equation\n                       
  Instructor: Sigal Gottlieb                                                               
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250904T140000
+DURATION:PT1H15M
+RRULE:FREQ=WEEKLY;BYDAY=TU,TH;UNTIL=20251209
+LOCATION:Dion 305                      
+STATUS:CONFIRMED
+SUMMARY:CIS 550-01 Lecture (#5812)      
+DESCRIPTION:Class Title: Advanced Machine Learning\n                            
+ Instructor: Ashokkumar Ratilal Patel                                                     
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250904T110000
+DURATION:PT1H15M
+RRULE:FREQ=WEEKLY;BYDAY=TU,TH;UNTIL=20251209
+LOCATION:Textile Building 101          
+STATUS:CONFIRMED
+SUMMARY:CIS 552-01 Lecture (#6024)      
+DESCRIPTION:Class Title: Database Design\n                                      
+ Instructor: Gokhan Kul                                                                   
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250903T110000
+DURATION:PT0H50M
+RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR;UNTIL=20251209
+LOCATION:Dion 116                      
+STATUS:CONFIRMED
+SUMMARY:CIS 498-02H Lecture (#6814)     
+DESCRIPTION:Class Title: Senior Software Eng Proj I\n                           
+ Instructor: Firas Denis Khatib                                                           
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250903T100000
+DURATION:PT0H50M
+RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20251209
+LOCATION:Dion 116                      
+STATUS:CONFIRMED
+SUMMARY:CIS 498-02HL Laboratory (#6815) 
+DESCRIPTION:Class Title: Senior Software Eng Proj I\n                           
+ Instructor: Firas Denis Khatib                                                           
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250903T120000
+DURATION:PT0H50M
+RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20251209
+LOCATION:Dion 116                      
+STATUS:CONFIRMED
+SUMMARY:CIS 498-02HL Laboratory (#6815) 
+DESCRIPTION:Class Title: Senior Software Eng Proj I\n                           
+ Instructor: Firas Denis Khatib                                                           
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250904T153000
+DURATION:PT2H30M
+RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20251209
+LOCATION:TEX-001                       
+STATUS:CONFIRMED
+SUMMARY:MTH 474-01 Lecture (#13755)     
+DESCRIPTION:Class Title: Numerical Optimization\n                               
+ Instructor: Alfa R.H Heryudono                                                           
 END:VEVENT
 END:VCALENDAR
